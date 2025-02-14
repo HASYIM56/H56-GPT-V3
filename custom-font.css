@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'KustomFont';
+    src: url('path_to_your_custom_font.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KustomFont2';
+    src: url('path_to_your_custom_font2.ttf') format('truetype');
+}

@@ -1,0 +1,103 @@
+/* Hamburger Menu Icon */
+.hamburger-menu-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #E5E5E5;
+    z-index: 1000;
+}
+
+.hamburger-menu-icon:hover {
+    color: #C0392B; /* Dark red on hover */
+}
+
+/* Hamburger Menu Slide In */
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #000; /* Black background for the menu */
+    border-radius: 30px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Shadow effect for depth */
+    z-index: 999;
+    transition: left 0.3s ease-in-out;
+    border-left: 5px solid #C0392B; /* Red line on the left side */
+    border-right: 5px solid #C0392B; /* Red line on the right side */
+    backdrop-filter: blur(20px); /* Glassmorphism effect */
+}
+
+/* Active state of hamburger menu */
+.hamburger-menu.active {
+    left: 0;
+}
+
+.hamburger-menu-content {
+    padding: 20px;
+    color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hamburger-menu h1 {
+    font-size: 32px;
+    font-family: 'KustomFont', Arial, sans-serif;
+    color: #E5E5E5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hamburger-menu p {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'KustomFont2', Arial, sans-serif;
+    color: #E5E5E5;
+    margin-bottom: 10px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Powered by section */
+.powered-by {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.openai-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+/* Real-time date styling */
+.realtime-date {
+    margin-top: auto;
+    width: 100%;
+    background-color: #000;
+    border-top: 5px solid #C0392B;
+    border-bottom: 5px solid #C0392B;
+}
+
+.date-box {
+    padding: 15px;
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-family: 'KustomFont', Arial, sans-serif;
+}
+
+.date-box p {
+    margin: 0;
+}
